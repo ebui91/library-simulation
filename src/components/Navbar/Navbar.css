@@ -1,0 +1,44 @@
+.nav-main-container{
+  height: 80px;
+  width: 100%;
+  background: #020402;
+  color: #C6B38E;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-left{
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-family: 'Alegreya', serif;
+  font-size: 24px;
+}
+
+.nav-left h3{
+  margin: 5px;
+}
+
+.nav-right{
+  width: 33%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.log-btn{
+  background: #020402;
+  color: #C6B38E;
+  border-style: none;
+  margin-right: 20px;
+  font-size: 14px;
+}
+
+.tan-logo{
+  height: 50px;
+  width: 50px;
+  z-index: 1;
+}

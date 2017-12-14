@@ -1,0 +1,55 @@
+.details-card{
+  min-height: 60%;
+  min-width: 80%;
+  background: #C6B38E;
+  border-radius: 10px;
+}
+
+.details-inner-card{
+  height: 90%;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 10px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #4E1E29;
+  border-width: 1px;
+  background: #FBFFE6;
+}
+
+#details-book-img{
+  margin: auto;
+}
+
+.details-title{
+  font-family: 'Alegreya', serif;
+  font-size: 20px;
+  color: #4E1E29;
+}
+
+.details-inner-card p{
+  font-family: 'Open Sans', sans-serif;
+}
+
+#details-description{
+  width: 90%;
+}
+
+.btns-col{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.details-btn-col{
+  display: flex;
+  flex-direction: column;
+}
+
+.details-btn{
+  margin: 5px;
+}
